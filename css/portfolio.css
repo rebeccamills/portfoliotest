@@ -221,9 +221,9 @@ i {
 }*/
 
 /* For devices larger than 400px */
-/*@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}*/
+@media (min-width: 768px) {
+  .projects article {
+    width: 33.333%;
+}
+}
 
