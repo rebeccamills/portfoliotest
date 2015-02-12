@@ -1,0 +1,229 @@
+body {background: linear-gradient(#D7E5F0, #BECFDB);
+ 
+}
+ 
+.clear {
+    overflow: auto;
+    clear: both;
+}
+
+.subheading {
+	color: black;
+	padding-bottom: 10px;
+}
+
+.icons-top {
+	padding-top: 40px;
+}
+ 
+nav {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+ 
+.nav1 a {
+    color: black;
+}
+ 
+ul {
+    padding: 0;
+}
+ 
+ 
+.wrapper {
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+    width: 100%;
+}
+ 
+a {
+    text-decoration: none;
+    color: yellow;
+}
+ 
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+ 
+a:active {
+    text-decoration: underline;
+}
+ 
+.hidden {
+    display: none;
+}
+ 
+.unstyled-list {
+    list-style: none;
+}
+ 
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+ 
+h2 {
+    font-size: 42px;
+}
+
+ 
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+ 
+.slide {
+    display: table;
+    width: 100%;
+}
+ 
+.slide .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 3%;
+}
+ 
+ 
+.float-left {
+    float: left;
+}
+ 
+.one-third {
+    width: 33.33%;
+    background-color: #386A5F;
+    text-align: center;
+}
+ 
+.page-articles .middle-article {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+ 
+.page-articles .content article:first-child {
+    padding-left: 0px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+ 
+.page-articles .content article:last-child {
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+ 
+.projects article {
+    float: right;
+    width: 33%;
+}
+ 
+.heading {
+    background-color: #FFFFEB;
+}
+ 
+.main {
+    background-color: #386A5F;
+}
+ 
+.projects {
+    background-color: #104468;
+    width: 100%;
+}
+ 
+.projects img {
+    width: 300px;
+    height: 163px;
+}
+ 
+.projects article {
+    margin-bottom: 60px;
+}
+ 
+.about {
+    background-color: #130C1E;
+}
+
+.about-text {
+	text-align: justify;
+}
+ 
+.contact {
+    background-color: #8D203B;
+}
+
+ 
+button {
+    text-transform: uppercase;
+    background: #424242;
+    padding: 1em;
+    font-size: 1.2em;
+    width: 400px;
+}
+ 
+.project-video {
+    position: relative;
+}
+ 
+.project-video a {
+    display: none;
+}
+ 
+.project-video:hover a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: black;
+    opacity: .8;
+}
+ 
+ 
+ 
+ 
+.sticky-nav {
+    position: fixed;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.15);
+    top: -50px;
+    transition: top 0.5s ease;
+}
+ 
+.show-nav .sticky-nav {
+    top: 0;
+    padding-top: 20px;
+}
+ 
+ 
+.projects article {
+    width: 100%;
+}
+
+.icons {
+	padding-bottom: 40px;
+}
+
+i {
+	padding: 10px;
+}
+ 
+/*@media all and (min-width: 768px)  {
+    .projects article {
+        max-width: 33.333%;
+    }
+}*/
+
+/* For devices larger than 400px */
+/*@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}*/
+
